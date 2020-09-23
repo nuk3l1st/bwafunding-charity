@@ -14,5 +14,6 @@ h1 {
 
 <div>
     <h1>{title}</h1>
-    <CharityList dfdonasi={charities}/>
+    <CharityList {charities}/>
+    <CharityList />
 </div>
