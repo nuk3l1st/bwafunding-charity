@@ -2,7 +2,7 @@
     import CharityList from '../components/CharityList.svelte';
     
     let title = "Charity";
-    let charities = ['Charity 1', 'Charity 2', 'Charity 3'];
+    let charities = ["Charity 1", "Charity 2", "Charity 3", "Charity 4"];
 </script>
 
 <style>
