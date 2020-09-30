@@ -5,8 +5,8 @@
     <h2>Daftar Charity</h2>
     {#if charities !== undefined}
         <ul>
-            {#each charities as char }
-                <li>{char}</li>
+            {#each charities as charities }
+                <li>{charities.title} - {charities.category}</li>
             {/each}
         </ul>
     {:else}
